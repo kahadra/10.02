@@ -1,0 +1,20 @@
+[
+  {
+    "file": "assets/prior_eventvad.png",
+    "source": "../07.29/index.html",
+    "slide": 4,
+    "visible_text": "02 · ROOT CAUSE\nMLLM의 시간 단위 불일치\nWorld knowledge is available.\nTemporal units are not.\nFrame-wise\n한 프레임씩 보면 문맥이 사라진다\n\n전후 행동을 보지 못해 같은 사건 안에서도 캡션과 이상 점수가 흔들리고, 순간적인 오탐이 누적된다.\n\nWhole "
+  },
+  {
+    "file": "assets/prior_memovad.png",
+    "source": "../08.12/index.html",
+    "slide": 4,
+    "visible_text": "PARADIGM SHIFT\n선택적 VLM 질의\nCloud는 기본 경로가 아니라\n선택적으로 호출하는 교사다\nFigure 1 · 기존 per-clip VLM 질의와 MemoVAD 비교\nTraditional\n클립마다 VLM을 호출\n반복 질의가 통신과 지연을 누적시키며, 이전에 확인한 의미도 다시 계산한다.\nMemoVAD\n의미를"
+  },
+  {
+    "file": "assets/prior_bem.png",
+    "source": "../09.11/index.html",
+    "slide": 11,
+    "visible_text": "02 · LOGIT RE-SCORING\n유사도 기반 재점수화\nBEM · 2026.09.11\n10:10–11:35 · 01:25\nLogit: 0~1 점수를 실수 범위로 변환 · σ(sigmoid): 다시 0~1 점수로 변환\ns̃ᵢ: 선택적 점수 전처리 후 후보 i의 confidence · s′ᵢ: BEM 보정 후 점수\nz′"
+  }
+]

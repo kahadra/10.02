@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# Preserve artifact bytes recorded by the validation manifests.
+*.html -text whitespace=cr-at-eol
+*.json -text whitespace=cr-at-eol
+*.md -text whitespace=cr-at-eol
+*.png binary
+*.pdf binary

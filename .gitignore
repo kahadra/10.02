@@ -1,0 +1,15 @@
+# Local preparation and verification tools
+.work/
+_render_check/
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+*.log
+
+# Local settings
+.env
+.env.*
+.DS_Store
+Thumbs.db
+desktop.ini

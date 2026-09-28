@@ -1,0 +1,382 @@
+{
+  "pdf_sha256": "d556300c7e54947046d2429e6e71faffc225f91aa46e0af875790fd9605d5be5",
+  "renders": [
+    {
+      "file": "assets/fig1.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 2,
+      "rect_pt": [
+        107,
+        71,
+        506,
+        235
+      ],
+      "scale": 4,
+      "sha256": "2b4da07912e193be7fbb756b9efb99473d4f8c33014dfd7f6ce7ccf04f8eed25"
+    },
+    {
+      "file": "assets/fig1_ab.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 2,
+      "rect_pt": [
+        107,
+        71,
+        381,
+        235
+      ],
+      "scale": 4,
+      "sha256": "38dbc4df509a5fa3c16d1b0cb848e741fc6ff5748f1c0d32eb5fc20ad99a3ddd"
+    },
+    {
+      "file": "assets/fig1_stats.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 2,
+      "rect_pt": [
+        382,
+        71,
+        506,
+        235
+      ],
+      "scale": 4,
+      "sha256": "1214cc62cf7d00e3c7bd7cedc15bbf7c726ebaaedf21d0583e4867e42bc37643"
+    },
+    {
+      "file": "assets/fig2.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 4,
+      "rect_pt": [
+        107,
+        71,
+        506,
+        250
+      ],
+      "scale": 4,
+      "sha256": "ff210452ea3c8fba0a58e7a3d997a9ed5697743609b92c15dc833e7555f02d37"
+    },
+    {
+      "file": "assets/fig2_tree.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 4,
+      "rect_pt": [
+        107,
+        71,
+        302,
+        250
+      ],
+      "scale": 4,
+      "sha256": "dcb08dd4e649e90f2dd1598c62c507cef64aeef0aa633bfc97c8071512ee170e"
+    },
+    {
+      "file": "assets/fig2_scoring.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 4,
+      "rect_pt": [
+        304,
+        71,
+        506,
+        250
+      ],
+      "scale": 4,
+      "sha256": "68442e3c2174f8688127215eb2964baa86ed43185522194c17f8559394b4eb53"
+    },
+    {
+      "file": "assets/fig3.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 10,
+      "rect_pt": [
+        107,
+        70,
+        506,
+        242
+      ],
+      "scale": 4,
+      "sha256": "e656c28c7f203e5018125b8d4c2ffd8b93b7060895c22c7d50af78e50b2990c3"
+    },
+    {
+      "file": "assets/fig3_ucf.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 10,
+      "rect_pt": [
+        107,
+        70,
+        506,
+        155
+      ],
+      "scale": 4,
+      "sha256": "752f764acf8f8d98fd3f208a7b1f08491d49ad95222f6b956aded1d0610fe58f"
+    },
+    {
+      "file": "assets/fig3_xd.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 10,
+      "rect_pt": [
+        107,
+        157,
+        506,
+        242
+      ],
+      "scale": 4,
+      "sha256": "90dbf36a71b5cee8261b091564cb53f6fe442254ac188518f84fa76f1fe2b94d"
+    },
+    {
+      "file": "assets/fig3_burglary.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 10,
+      "rect_pt": [
+        107,
+        70,
+        304,
+        155
+      ],
+      "scale": 4,
+      "sha256": "dcdd8e52cf78a4c3b0e7f267eae106d4614e1b66b555d4708739308efe05c10f"
+    },
+    {
+      "file": "assets/fig3_normal.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 10,
+      "rect_pt": [
+        306,
+        70,
+        506,
+        155
+      ],
+      "scale": 4,
+      "sha256": "56ee989fc5ca1d76b5fe38b6d72758ddd56930fc5cba22ccb4fc86bd50e330ff"
+    },
+    {
+      "file": "assets/fig3_assault.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 10,
+      "rect_pt": [
+        107,
+        157,
+        304,
+        242
+      ],
+      "scale": 4,
+      "sha256": "7a0fa9ad56e2c74c3cdc6411989217c54310ad3094ea43beb4378441802fb168"
+    },
+    {
+      "file": "assets/fig3_riot.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 10,
+      "rect_pt": [
+        306,
+        157,
+        506,
+        242
+      ],
+      "scale": 4,
+      "sha256": "eeac87b80250aee69cff1a728b84df41920bc0ad22172c8b70ab5553c7bee710"
+    },
+    {
+      "file": "assets/table1.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 7,
+      "rect_pt": [
+        108,
+        134,
+        293,
+        492
+      ],
+      "scale": 4,
+      "sha256": "c09bf74c92fed4054c2b52a9ad8f86cb5ebf5871f2042ba2813fcbae457ae82d"
+    },
+    {
+      "file": "assets/table2.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 7,
+      "rect_pt": [
+        299,
+        199,
+        503,
+        489
+      ],
+      "scale": 4,
+      "sha256": "9ef69f821c268a89bbae22fed00d8f2a7ad1b65ead15a7fdc086c94879e085b9"
+    },
+    {
+      "file": "assets/table3.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 8,
+      "rect_pt": [
+        108,
+        112,
+        350,
+        177
+      ],
+      "scale": 4,
+      "sha256": "9457008afd6fdd380a503341fc194e13dc273e25c8e52e014c504eb044a10944"
+    },
+    {
+      "file": "assets/table4.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 8,
+      "rect_pt": [
+        360,
+        112,
+        504,
+        177
+      ],
+      "scale": 4,
+      "sha256": "f0e5ce253cdbaa044496cf46280bb8ba55a89ff7c0e6c7e2b7cafa9c865651b2"
+    },
+    {
+      "file": "assets/table5.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 8,
+      "rect_pt": [
+        108,
+        220,
+        256,
+        270
+      ],
+      "scale": 4,
+      "sha256": "a9dff0dce0df18232eb438e5c53a963e0392e9fa13e27d4aafa3e70f7997c915"
+    },
+    {
+      "file": "assets/table6.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 8,
+      "rect_pt": [
+        268,
+        219,
+        503,
+        270
+      ],
+      "scale": 4,
+      "sha256": "7e62265702cc369a68c46ffddabf5ca5b61706f4c99f6340204c806d00138574"
+    },
+    {
+      "file": "assets/table13.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 29,
+      "rect_pt": [
+        142,
+        183,
+        471,
+        290
+      ],
+      "scale": 4,
+      "sha256": "9e1332a8a06ebe8a1769d3bc93f80e3ceabb5d2cfdfafbacc31c6e8835806609"
+    },
+    {
+      "file": "assets/table14.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 30,
+      "rect_pt": [
+        128,
+        182,
+        484,
+        285
+      ],
+      "scale": 4,
+      "sha256": "56457e26a419fc7031aab952821e01d30ba78f8967e53a808c83d373a5de66ca"
+    },
+    {
+      "file": "assets/table16.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 31,
+      "rect_pt": [
+        108,
+        101,
+        503,
+        203
+      ],
+      "scale": 4,
+      "sha256": "a7ac35d59a5805aca04cdcda858c4fd3bdd79e21fac89cfe61663ef6119f7058"
+    },
+    {
+      "file": "assets/table17.png",
+      "source_pdf": "NeurIPS-2025-vadtree-explainable-training-free-video-anomaly-detection-via-hierarchical-granularity-aware-tree-Paper-Conference.pdf",
+      "page": 31,
+      "rect_pt": [
+        173,
+        332,
+        439,
+        384
+      ],
+      "scale": 4,
+      "sha256": "044bd5e9fcfb26d97f00311be19c6c305699c62ba5e70fe0ba32cf7f05fce13d"
+    }
+  ],
+  "provided_images": [
+    {
+      "file": "src/fig1.png",
+      "sha256": "4b16107f80c82c28117999057d1fc2720502c7943d73c3607331acc0e0a92144"
+    },
+    {
+      "file": "src/fig2.png",
+      "sha256": "a7990e0f338ea83880e78d951f1246bb718e58dbf2068375960ff122dbd069dc"
+    },
+    {
+      "file": "src/fig3.png",
+      "sha256": "df07f4ee1a28b7b92ee19e61238d573f33610a969b7a6207ee73e86506314c8d"
+    },
+    {
+      "file": "src/fx1.png",
+      "sha256": "758685e86e1645f75597a737da12ca066e316eb41506e8a1852e613b24a1d584"
+    },
+    {
+      "file": "src/fx10.png",
+      "sha256": "777571847bb7fc3117cc7903c79b1f5de6383305ee5a06d8cd3703c6ddc27b1a"
+    },
+    {
+      "file": "src/fx2.png",
+      "sha256": "d5d08a9f19179dc0f6ffd16400fba34312ce506c3d12bae2ca413427d94e30fd"
+    },
+    {
+      "file": "src/fx3.png",
+      "sha256": "1ed3a9df01fc6cb1a181ac9787a72222677a310e410daa89fdcb713cc2a1c7f9"
+    },
+    {
+      "file": "src/fx4.png",
+      "sha256": "662db2ea263683c5e91c54b228ed0a5071bee10f063f0481e2d1a64308cbb4c8"
+    },
+    {
+      "file": "src/fx5.png",
+      "sha256": "c766b2fb0d944bf79014456c71e297f742df32097db4c7f6d13d942b71b2d357"
+    },
+    {
+      "file": "src/fx6.png",
+      "sha256": "9a91988dc16a44bba4b733bac24b401a6e597608674556228d2d76ecf2fdae59"
+    },
+    {
+      "file": "src/fx7.png",
+      "sha256": "341dc6d1d73ae7d737564ab772abf60de792d47b7abbdaaad2ac33c3ad2de125"
+    },
+    {
+      "file": "src/fx8.png",
+      "sha256": "19c939365c954a3d4ceaea168a5d0f06837dace77c608af1a472ca1ecdcf05f9"
+    },
+    {
+      "file": "src/fx9.png",
+      "sha256": "a0aaf2a5e7c781e826fd02e1d177624afb97a6b81a780e7541f7f8e2bcb046c8"
+    },
+    {
+      "file": "src/table1.png",
+      "sha256": "b45cc9cf744f093d5d11094ad77eb41b1178ddb46b7bbfa19e35fa8f51711e0a"
+    },
+    {
+      "file": "src/table2.png",
+      "sha256": "f45724147b289eb64eb665d6df5d1d775e2101ee6c21c182dc64435fafb7972d"
+    },
+    {
+      "file": "src/table3.png",
+      "sha256": "0ace74042bb38af10cde4854d78c70ca6d55505be57e2eb6311ca5d054bc9bac"
+    },
+    {
+      "file": "src/table4.png",
+      "sha256": "8393dc349f82fb148a8f9d8f7503adc3c2fc84357160a419e982fd8eaf2c71e1"
+    },
+    {
+      "file": "src/table5.png",
+      "sha256": "7ffb0058f3dd840c26c3e25f68aa2e0e5330490ce1bae89174cf40563d7591ad"
+    },
+    {
+      "file": "src/table6.png",
+      "sha256": "7512e2fba8a20f223f69cb6831ebaa508945d70681e1daf733a339877e3f6968"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "slides": 41,
+  "main_slides": 22,
+  "appendix_slides": 19,
+  "planned_seconds": 1140,
+  "transition_buffer_seconds": 60,
+  "hard_limit_seconds": 1200,
+  "actual_speaking_time": "NOT_MEASURED_REHEARSAL_REQUIRED",
+  "browser": "Edg/154.0.4258.37",
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      900,
+      650
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "missing_local_assets": [],
+  "broken_images": [],
+  "console_errors": [],
+  "online_network_failures": [],
+  "layout_issues": [],
+  "checks": {
+    "arrows_page_keys_toc_map_number": true,
+    "main_end_stops_and_appendix_is_opt_in": true,
+    "speaker_notes_image_zoom_escape": true,
+    "fusion_demo_values": true,
+    "timer_start_pause_reset_19min_warning_20min_limit": true,
+    "hash_reload": true,
+    "fullscreen": true,
+    "responsive_canvas_bounds": true,
+    "offline_local_assets": true
+  },
+  "source_images_unchanged": true,
+  "speaker_notes_match_script": true,
+  "html_sha256": "600f6c3d829bb59e976e0991d984f412255d4af4e9b1f20123b4001339fde11b",
+  "script_sha256": "2bde41687a2a178bb60fcfd03794c2b5fcd6c67962360900ebc66d926f6eb95c",
+  "source_pdf_sha256": "d556300c7e54947046d2429e6e71faffc225f91aa46e0af875790fd9605d5be5",
+  "visual_review": {
+    "all_slides": "41 slides reviewed in four contact sheets",
+    "individual_inspection": [
+      5,
+      11,
+      13,
+      14,
+      16,
+      18
+    ],
+    "responsive_inspection": "900x650 screenshot inspected; all four viewport bounds checked",
+    "pdf_inspection": "22-page PDF parsed; main-results page rendered and visually inspected",
+    "figure_semantics": "Fig.3 case label Stealing036 and Frame/Second axis verified from rendered original; revised slide 18 inspected",
+    "scope": "Presentation rendering and source-based content review; no VAD runtime reproduction or spoken rehearsal"
+  },
+  "pdf_export": {
+    "file": "VADTree_2026-10-02_main.pdf",
+    "pages": 22,
+    "sha256": "fd17c6e57a01fa272002bfcc7ba064ade1b54233d9b989adec198c9df2e3319a",
+    "main_only": true
+  },
+  "content_review": {
+    "primary_source": "User-provided 33-page NeurIPS PDF",
+    "previous_decks": "07.29 slide 4; 08.12 slide 4; 09.11 slide 11; local HTML and scripts inspected",
+    "numeric_comparisons": "Tables 1-6, 13-14, 16-17 checked against PDF text and rendered tables; derived deltas recorded in SOURCES.md",
+    "original_equations": "All ten provided equation images included in appendix",
+    "main_script_characters": 6160
+  },
+  "completed_on": "2026-09-28"
+}
