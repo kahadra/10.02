@@ -43,24 +43,22 @@
   },
   "source_images_unchanged": true,
   "speaker_notes_match_script": true,
-  "html_sha256": "3a06ebf62da560923169441306e6d0782ebefadf82e3d57a29aca30a9b4e4ff2",
-  "script_sha256": "90fe2b5d119b57c55134956e17bfe9640748c9aefc4f56355a935b0f86260fc3",
+  "html_sha256": "35f71b2778e75188a7c119104d4a355c3fc5bad6ba0cc37e6313078b5ea84c87",
+  "script_sha256": "a33a71485836ac8c4d048cc5cedcda0e5c9aa6292f969de54e945e3bf8f90ebc",
   "source_pdf_sha256": "d556300c7e54947046d2429e6e71faffc225f91aa46e0af875790fd9605d5be5",
-  "visual_review": "BROWSER_ALL_43_SLIDES_AND_PDF_8_SAMPLED_PAGES",
+  "visual_review": "BROWSER_ALL_43_SLIDES_AND_PDF_PAGES_3_7_9_10_11_12",
   "pdf_export": {
     "pages": 24,
-    "sha256": "d5e82f5062b18d6f5d72e2fbf3b65d67ef96616d29ee4ce28d469fe4b7fabfd0",
+    "sha256": "a75cf08b900a0fa3bdbdf8e46c965bec83379f024db86ff75d233974c7560086",
     "visually_reviewed_pages": [
-      1,
+      3,
       7,
       9,
-      15,
-      16,
-      19,
-      21,
-      24
+      10,
+      11,
+      12
     ]
   },
-  "review_date": "2026-10-01",
-  "content_review": "FIG_TABLE_EQ_CLAIMS_CHECKED_AGAINST_SOURCE_PDF_AND_SLIDE_SCRIPT"
+  "content_review": "SLIDE_3_PRIOR_SEMINARS_AND_EQUATION_SYMBOLS_1_TO_10_CHECKED_AGAINST_SOURCE_PDF",
+  "review_date": "2026-10-01"
 }

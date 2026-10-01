@@ -11,7 +11,7 @@ Wenlong Li, Yifei Xu, Yuan Rao, Zhenhua Wang, Shuiguang Deng, *VADTree: Explaina
 | 장 | 원문 | 발표에서 설명할 핵심과 해석 범위 |
 |---|---|---|
 | 1–2 | 논문 표지; 발표 구성 | 제목과 목차. 논문 실험의 증거가 아니다. |
-| 3 | Sec. 1–2 | LAVAD의 고정 창, EventVAD의 사건 경계 활용에서 이어지는 질문. 각 완성 시스템의 차이를 트리 하나의 인과 효과로 읽지 않는다. |
+| 3 | 07.29 EventVAD 4장; 08.12 MemoVAD 4장; 09.11 BEM 11장 | 실제 이전 세미나의 질문을 직접 인용한다. EventVAD는 시간 단위, MemoVAD는 VLM 호출·의미 재사용, BEM은 점수 보정 근거. 세 방법을 같은 평가 과제나 training-free 조건으로 묶지 않는다. |
 | 4 | Fig. 1 A–B, PDF p.2 | 빨간 GT 9.0–14.6초와 고정 창의 불일치, coarse/fine의 서로 다른 길이. 한 사례의 동기다. |
 | 5 | Fig. 1 C, PDF p.2; Table 14 | x축은 GT 사건 길이, y축은 후보 구간과 GT의 mIoU. Fig. 1의 UCF 평균 0.52는 중복 노드를 유지한 구성이고 최종 트리 값은 0.47. |
 | 6 | Fig. 2, Sec. 3 | 왼쪽 트리 생성과 오른쪽 구간 판단·두 단계 보정. GEBD 경계 신뢰도와 이상 점수를 구별한다. |
@@ -34,6 +34,20 @@ Wenlong Li, Yifei Xu, Yuan Rao, Zhenhua Wang, Shuiguang Deng, *VADTree: Explaina
 | 24 | 위 근거의 종합 | 문제·방법·근거 범위를 요약한 발표자 해석. |
 
 부록 25–43장은 원문 수식 1–10, 표와 그림을 확대해 볼 수 있도록 둔 참고 자료다. 각 장의 원문 위치와 발화 대본은 `assets/slide_manifest.json` 및 `presentation_script.md`에 기록했다.
+
+3장의 세 화면은 `../07.29/index.html` 4장, `../08.12/index.html` 4장, `../09.11/index.html` 11장을 각각 렌더한 `assets/prior_eventvad.png`, `prior_memovad.png`, `prior_bem.png`다. 출처 세부 사항은 `assets/previous_seminars.json`에 기록되어 있다. 이는 이전 발표의 연결이며 VADTree 논문의 실험 증거가 아니다.
+
+## 수식 기호 읽기
+
+원문은 `c_i`를 프레임 `t_i` 위치의 **경계 신뢰도(confidence score)**, `a_u^g`를 노드의 **초기 이상 점수(anomaly score)**로 정의한다. `t_i`는 초가 아니라 영상 전체의 프레임 인덱스다. 따라서 `c`가 '변화 구간' 그 자체라는 뜻은 아니다. `c`, `a`, `t`라는 글자를 고른 어원은 원문에 명시되지 않았다.
+
+| 식 | 기호 | 원문에 따른 의미 |
+|---|---|---|
+| 1–3 | `V_local^(k)`, `C_local^(k)`, `l_raw` | k번째 겹침 영상 입력 창, 그 창에서 GEBD가 만든 `(t,c)` 목록, 창의 프레임 수. `C`는 중앙 절반들을 연결한 전역 신호, `Ĉ`는 국소 최대 경계 후보 집합. |
+| 트리, 4 | `N_i`, `V_l:r`, `ĉ_l`, `ĉ_r`, `γ_min` | i번째 구간 노드, 그 영상 프레임 범위, 좌우 경계 신뢰도, 분할을 계속할 최소 신뢰도. `Ĉ_coarse/fine`은 경계 후보 신뢰도 군집, `S_coarse/fine`은 선택 노드 집합, 프라임(`S′`)은 중복 제거·보완 뒤 집합. |
+| 5–7 | `B=(b_scene,b_obj,b_act)`, `g`, `u`, `V_u^g`, `d_u^g`, `a_u^g` | 장면·객체·행동 사전 지식; coarse/fine 집합; 그 집합의 노드; 그 노드의 추출 프레임; VLM 설명; LLM 초기 이상 점수. `P_b/P_c/P_d/P_s`는 생성/제약/설명/채점 지시문. |
+| 8 | `κ_u^(i)`, `K`, `sim`, `τ`, `â_u^g` | u와 i번째로 유사한 이웃 노드, 이웃 수, 시각 특징의 코사인 유사도, softmax 온도, 가중 평균 후 점수. 이 `K`는 식 1의 겹침 창 수나 K-means의 군집 수 2와 구별한다. |
+| 9–10 | `i`, `i_j`, `m`, `μ_i`, `w_i`, `ŵ_i`, `β`, `ā` | 부모와 j번째 자식, 자식 수, 자식 보정 점수 평균, 그 분산, 정규화 분산, 가중치 조절 계수, 융합 후 fine 노드 점수. 모자 기호(`â`)는 첫 보정 뒤 점수, 막대(`ā`)는 최종 융합 점수다. |
 
 ## 수치와 원문 표현의 주의점
 
