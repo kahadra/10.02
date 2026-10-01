@@ -1,6 +1,6 @@
 {
-  "slides": 41,
-  "main_slides": 22,
+  "slides": 43,
+  "main_slides": 24,
   "appendix_slides": 19,
   "planned_seconds": 1140,
   "transition_buffer_seconds": 60,
@@ -43,36 +43,24 @@
   },
   "source_images_unchanged": true,
   "speaker_notes_match_script": true,
-  "html_sha256": "600f6c3d829bb59e976e0991d984f412255d4af4e9b1f20123b4001339fde11b",
-  "script_sha256": "2bde41687a2a178bb60fcfd03794c2b5fcd6c67962360900ebc66d926f6eb95c",
+  "html_sha256": "3a06ebf62da560923169441306e6d0782ebefadf82e3d57a29aca30a9b4e4ff2",
+  "script_sha256": "90fe2b5d119b57c55134956e17bfe9640748c9aefc4f56355a935b0f86260fc3",
   "source_pdf_sha256": "d556300c7e54947046d2429e6e71faffc225f91aa46e0af875790fd9605d5be5",
-  "visual_review": {
-    "all_slides": "41 slides reviewed in four contact sheets",
-    "individual_inspection": [
-      5,
-      11,
-      13,
-      14,
-      16,
-      18
-    ],
-    "responsive_inspection": "900x650 screenshot inspected; all four viewport bounds checked",
-    "pdf_inspection": "22-page PDF parsed; main-results page rendered and visually inspected",
-    "figure_semantics": "Fig.3 case label Stealing036 and Frame/Second axis verified from rendered original; revised slide 18 inspected",
-    "scope": "Presentation rendering and source-based content review; no VAD runtime reproduction or spoken rehearsal"
-  },
+  "visual_review": "BROWSER_ALL_43_SLIDES_AND_PDF_8_SAMPLED_PAGES",
   "pdf_export": {
-    "file": "VADTree_2026-10-02_main.pdf",
-    "pages": 22,
-    "sha256": "fd17c6e57a01fa272002bfcc7ba064ade1b54233d9b989adec198c9df2e3319a",
-    "main_only": true
+    "pages": 24,
+    "sha256": "d5e82f5062b18d6f5d72e2fbf3b65d67ef96616d29ee4ce28d469fe4b7fabfd0",
+    "visually_reviewed_pages": [
+      1,
+      7,
+      9,
+      15,
+      16,
+      19,
+      21,
+      24
+    ]
   },
-  "content_review": {
-    "primary_source": "User-provided 33-page NeurIPS PDF",
-    "previous_decks": "07.29 slide 4; 08.12 slide 4; 09.11 slide 11; local HTML and scripts inspected",
-    "numeric_comparisons": "Tables 1-6, 13-14, 16-17 checked against PDF text and rendered tables; derived deltas recorded in SOURCES.md",
-    "original_equations": "All ten provided equation images included in appendix",
-    "main_script_characters": 6160
-  },
-  "completed_on": "2026-09-28"
+  "review_date": "2026-10-01",
+  "content_review": "FIG_TABLE_EQ_CLAIMS_CHECKED_AGAINST_SOURCE_PDF_AND_SLIDE_SCRIPT"
 }
